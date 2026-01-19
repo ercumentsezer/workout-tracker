@@ -1,0 +1,45 @@
+name: workout_track
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # --- TEMEL PAKETLER ---
+  # State Management
+  flutter_riverpod: ^2.5.1
+  
+  # Veritabanı
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Yardımcılar
+  uuid: ^4.4.0
+  intl: ^0.19.0
+  path_provider: ^2.1.2
+
+  # İkonlar
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^3.0.0
+  # İkon oluşturucu
+  flutter_launcher_icons: ^0.13.1
+
+# İkon Ayarları
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
